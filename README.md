@@ -69,8 +69,6 @@ Matrimony Connect is a user-friendly platform designed to help individuals find 
    - Visit `http://localhost:9000` to explore the project.
 
 
-### 🌐 **Live Site URL**
-https://biya-sadi.web.app/
 
 ## 🔗 Live Links
 - Live Demo: https://biya-sadi.web.app/
