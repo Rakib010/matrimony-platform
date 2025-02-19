@@ -32,7 +32,7 @@ const UserHome = () => {
         </div>
 
         {/* Additional Info */}
-        <button className="mt-5 px-4 py-2 bg-purple-500 text-white rounded-lg shadow-md hover:bg-purple-600 transition">
+        <button className="mt-5 px-4 py-2 bg-pink-500 text-white rounded-lg shadow-md transition">
           Edit Profile
         </button>
       </div>

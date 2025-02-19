@@ -29,8 +29,8 @@ const ApprovedContactRequest = () => {
   if (isLoading) return <LoadingSpinner />;
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
-      <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
+    <div className="">
+      <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
         Approved Contact Requests
       </h2>
       {contactRequests.length === 0 ? (
@@ -39,9 +39,9 @@ const ApprovedContactRequest = () => {
         </p>
       ) : (
         <div className="overflow-x-auto shadow-lg rounded-lg">
-          <table className="w-full table-auto border-collapse border border-gray-200 bg-white rounded-lg">
+          <table className="w-full table-auto border-collapse border rounded-lg">
             <thead>
-              <tr className="bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+              <tr className="bg-gray-100">
                 <th className="px-6 py-3 text-left font-semibold text-sm uppercase">
                   Email
                 </th>
