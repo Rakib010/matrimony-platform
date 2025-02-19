@@ -71,5 +71,5 @@ Matrimony Connect is a user-friendly platform designed to help individuals find 
 
 
 ## 🔗 Live Links
-- Live Demo: https://biya-sadi.web.app/
+- Live Demo: https://biya-sadi.web.app
 - GitHub Repo: https://github.com/Rakib010/Matrimony-platform.git
