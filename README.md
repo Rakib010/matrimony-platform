@@ -18,8 +18,6 @@ Matrimony Connect is a user-friendly platform designed to help individuals find 
 - Database: MongoDB
 - Authentication: Firebase/Auth0
 - Deployment: Firebase Hosting, vercel
-
-## 📦 Dependencies(Fronted+Backhand)
 - @stripe/react-stripe-js
 - @stripe/stripe-j
 - @tanstack/react-query
