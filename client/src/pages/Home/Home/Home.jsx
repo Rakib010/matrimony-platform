@@ -6,7 +6,7 @@ import SuccessStory from "../SuccessStory/SuccessStory";
 
 const Home = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-20">
       <Banner />
       <PremiumCard />
       <HowItWorks />

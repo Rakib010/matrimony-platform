@@ -32,7 +32,7 @@ const SuccessStory = () => {
   };
 
   return (
-    <section className="bg-gray-100 rounded-lg border py-10">
+    <section className="bg-gradient-to-r from-pink-50 via-white to-pink-50 rounded-lg border py-10 mt-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-6">Success Stories</h2>
 

@@ -15,7 +15,7 @@ const BiodataCard = ({ biodata }) => {
   //console.log(biodata)
 
   return (
-    <div className="w-full max-w-xs mx-auto bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-6 flex flex-col h-full">
+    <div className="w-full max-w-xs mx-auto bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-6 flex flex-col h-full border">
       {/* Profile Image Section */}
       <div className="w-full h-48 bg-gray-200 rounded-t-lg overflow-hidden">
         <img

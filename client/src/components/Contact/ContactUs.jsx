@@ -1,6 +1,6 @@
 const ContactUs = () => {
   return (
-    <section className="bg-gray-100 p-10 my-12 border rounded-md ">
+    <section className="bg-gray-100 p-10 my-20 border rounded-md ">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">
           Contact Us

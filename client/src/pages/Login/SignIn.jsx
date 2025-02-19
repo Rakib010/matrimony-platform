@@ -36,7 +36,8 @@ const SignIn = () => {
           email: res.user?.email,
           name: res.user?.displayName,
         };
-        axiosPublic.post("/users", userInfo).then((res) => {
+        axiosPublic.post("/users", userInfo)
+        .then((res) => {
           navigate("/");
         });
       })

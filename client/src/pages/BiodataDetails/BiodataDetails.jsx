@@ -43,7 +43,7 @@ const BiodataDetails = () => {
   };
 
   return (
-    <div className="min-h-screen py-10">
+    <div className="min-h-screen mt-20">
       <div className="container mx-auto px-4">
         {/* Biodata Details Section */}
         <div className="bg-white rounded-lg overflow-hidden border mb-12">

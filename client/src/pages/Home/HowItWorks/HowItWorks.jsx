@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const HowItWorks = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-pink-50 via-white to-pink-50 p-8 my-10">
-      <h1 className="text-4xl font-bold text-center text-pink-600 mb-4">
+    <div className="min-h-screen bg-gradient-to-r from-pink-50 via-white to-pink-50 p-8 mt-20 rounded-lg">
+      <h1 className="text-3xl font-bold text-center text-pink-600 mb-4">
         How It Works
       </h1>
       <p className="text-center text-gray-600 mb-12">
@@ -15,7 +15,7 @@ const HowItWorks = () => {
         {/* Left Side */}
         <div className="space-y-8 mb-8 md:mb-0 w-full md:w-1/3">
           <motion.div
-            className="bg-white shadow-lg rounded-lg p-6 text-center transform hover:scale-105 transition duration-300"
+            className="bg-white shadow-lg rounded-lg p-6 text-center flex flex-col items-center transform hover:scale-105 transition duration-300"
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -31,7 +31,7 @@ const HowItWorks = () => {
           </motion.div>
 
           <motion.div
-            className="bg-white shadow-lg rounded-lg p-6 text-center transform hover:scale-105 transition duration-300"
+            className="bg-white shadow-lg rounded-lg p-6 text-center flex flex-col items-center transform hover:scale-105 transition duration-300"
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -64,7 +64,7 @@ const HowItWorks = () => {
         {/* Right Side */}
         <div className="space-y-8 w-full md:w-1/3">
           <motion.div
-            className="bg-white shadow-lg rounded-lg p-6 text-center transform hover:scale-105 transition duration-300"
+            className="bg-white shadow-lg rounded-lg p-6 text-center flex flex-col items-center transform hover:scale-105 transition duration-300"
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -80,7 +80,7 @@ const HowItWorks = () => {
           </motion.div>
 
           <motion.div
-            className="bg-white shadow-lg rounded-lg p-6 text-center transform hover:scale-105 transition duration-300"
+            className="bg-white shadow-lg rounded-lg p-6 text-center flex flex-col items-center transform hover:scale-105 transition duration-300"
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}

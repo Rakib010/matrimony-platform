@@ -46,7 +46,7 @@ const Biodatas = () => {
   if (error) return <p>Error loading biodatas.</p>;
 
   return (
-    <div className="flex flex-col md:flex-row mt-10 px-4">
+    <div className="flex flex-col md:flex-row mt-20">
       {/* LeftSide (Search/Filter Section) */}
       <div className="w-full md:w-1/4 mb-6 md:mb-0 md:pr-6">
         <LeftSide filter={filter} setFilter={setFilter} />
