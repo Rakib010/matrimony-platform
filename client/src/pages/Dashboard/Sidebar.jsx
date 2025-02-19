@@ -26,7 +26,7 @@ const Sidebar = () => {
   return (
     <div>
       {/* Sidebar Toggle Button for Small Devices */}
-      <div className="lg:hidden p-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+      <div className="lg:hidden p-4 bg-gradient-to-r from-purple-500 to-pink-500">
         <button onClick={toggleSidebar} className="text-2xl">
           <FiMenu />
         </button>
@@ -38,7 +38,7 @@ const Sidebar = () => {
           isOpen ? "block" : "hidden"
         } lg:block`}
       >
-        <div className="p-6 border-b bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+        <div className="p-6 bg-gradient-to-r from-purple-500 to-pink-500 ">
           <div className="flex gap-4 items-center">
             <img
               className="w-10 h-10 rounded-full"

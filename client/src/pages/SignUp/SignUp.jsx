@@ -43,7 +43,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gradient-to-r from-pink-100 via-pink-50 to-white p-4">
+    <div className="min-h-screen flex justify-center items-center mt-20">
       <div className="bg-white shadow-2xl rounded-lg max-w-md w-full p-8 border border-pink-200">
         <h2 className="text-3xl font-bold text-center text-pink-600 mb-4">
           Join Our Matrimony Platform

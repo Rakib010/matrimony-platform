@@ -47,7 +47,7 @@ const SignIn = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center p-4 bg-gradient-to-r from-pink-100 via-pink-50 to-white">
+    <div className="min-h-screen flex justify-center items-center mt-20">
       <div className="bg-white shadow-2xl rounded-lg max-w-md w-full p-8 border border-pink-200">
         {/* Header */}
         <h2 className="text-3xl font-semibold text-center text-pink-600 mb-6">

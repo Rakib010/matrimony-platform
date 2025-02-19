@@ -47,7 +47,7 @@ const ViewBiodata = () => {
   if (isLoading) return <LoadingSpinner />;
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="p-6">
       <div className="max-w-2xl mx-auto p-6 bg-white border rounded-lg space-y-6">
         {/* Profile Image */}
         <div className="flex justify-center">
